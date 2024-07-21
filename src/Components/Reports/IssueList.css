@@ -1,0 +1,78 @@
+.issue-list{
+    max-height: 930%;
+    background-color: white;
+    padding: 14px;
+    margin-top: 12px;
+    text-align: right;
+    
+}
+.table-data{
+   
+    width: fit-content;
+    /* max-width: 100%; */
+    /* max-width: fit-content; */
+    /* max-height: fit-content; */
+    /* z-index: 9999999; */
+    block-size: fit-content;
+}
+.table-header{
+    margin-bottom: 15px;
+    padding-left: -20px;
+      
+}
+.dropdown-menu{
+    /* margin-left: 15px; */
+    float:right;
+    cursor: pointer;
+    
+}
+.menu-button{
+     margin-left: 15px;
+    float:right;
+    background-color: #1890FF;
+}
+
+.page-item{
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 4px;
+    cursor: pointer;
+    background: white;
+    /* height: 20%; */
+    /* padding: 6px 15px; */
+}
+.page-link:active{
+    color: #1890FF;
+    
+}
+.page-link{
+    color:black;
+    float: right; 
+    padding: 6px 12px;
+    text-decoration: none;
+    
+}
+.issue-raised-dropdown{
+    /* color: rgba(0, 0, 0, 0.25); */
+    font-family: Roboto;
+    font-size: 14px;
+    width: 100px;
+    margin-bottom: -10px;
+    padding-left: 0px;
+    padding: 0px;
+}
+
+.issue-raised-dropdown-divider{
+    margin-top:2px;
+    color: #C1C1C1;
+    margin-bottom: 8px;
+
+}
+.ant-dropdown-menu-item-selected:hover{
+    background-color: transparent;
+}
+.issue-raised-dropdown-close{
+    color:  rgba(0, 0, 0, 0.25);
+}
+
+
